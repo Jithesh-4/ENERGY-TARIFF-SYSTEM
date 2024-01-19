@@ -5,10 +5,10 @@
 #include <Firebase_ESP_Client.h>
 
 // Firebase credentials
-#define WIFI_SSID "Vivo V29"
-#define WIFI_PASSWORD "123456789"
-#define API_KEY "AIzaSyAz7r8LyvZICeBBazaK0-D8L13gf_cXNz4"
-#define DATABASE_URL "https://energy-tariff-system-default-rtdb.firebaseio.com/"
+#define WIFI_SSID "REPLACE_WITH_YOUR_SSID"
+#define WIFI_PASSWORD "REPLACE_WITH_YOUR_PASSWORD"
+#define API_KEY "REPLACE_WITH_YOUR_FIREBASE_PROJECT_API_KEY"
+#define DATABASE_URL "REPLACE_WITH_YOUR_FIREBASE_DATABASE_URL"
 
 FirebaseData fbdo;
 FirebaseAuth auth;
